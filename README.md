@@ -40,7 +40,7 @@ aws-terraform-ec2-basic/
 1. **Clona el repositorio:**
 
    ```bash
-   git clone <url_del_repositorio>
+   git clone https://github.com/CloudInTheBrain/Terraform
    cd aws-terraform-ec2-basic
    ```
 
