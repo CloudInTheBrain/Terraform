@@ -79,13 +79,18 @@ aws-terraform-ec2-basic/
 
    Terraform te pedirá confirmación. Escribe `yes` para continuar.
 🔧 Módulos Utilizados
+
 🌐 Módulo de VPC
 Este módulo crea una VPC con una subred pública. Se configura con un bloque CIDR y habilita la resolución de DNS.
+
 💻 Módulo EC2
 Este módulo lanza una instancia EC2 dentro de la subred pública creada por el módulo de VPC. También configura el Security Group necesario para la instancia.
+
 🔒 Módulo de Security Group
 Este módulo crea un Security Group con reglas que permiten el acceso SSH (puerto 22) y HTTP (puerto 80) desde cualquier dirección IP.
+
 🚀 Despliegue y Recursos
 Una vez que el despliegue se complete, puedes acceder a tu instancia EC2 a través de SSH usando la clave privada asociada a la instancia.
+
 📝 Licencia
 Este proyecto está bajo la Licencia MIT - ver el archivo LICENSE para más detalles.
