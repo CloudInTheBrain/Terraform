@@ -3,6 +3,12 @@ variable "region" {
   type        = string
 }
 
+variable "cidr_block" {
+  description = "CIDR block para la VPC"
+  type        = string
+}
+
+
 variable "vpc_cidr" {
   description = "VPC CIDR block"
   type        = string
