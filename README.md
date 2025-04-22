@@ -46,7 +46,7 @@ aws-terraform-ec2-basic/
 
 2. **Configura las variables de Terraform:**
 
-   Abre el archivo `terraform.tfvars` y configura los valores de las variables según tu entorno de AWS.
+   Crea el archivo `terraform.tfvars` y configura los valores de las variables según tu entorno de AWS.
 
    Ejemplo:
 
