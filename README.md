@@ -93,4 +93,4 @@ Este módulo crea un Security Group con reglas que permiten el acceso SSH (puert
 Una vez que el despliegue se complete, puedes acceder a tu instancia EC2 a través de SSH usando la clave privada asociada a la instancia.
 
 📝 Licencia
-Este proyecto está bajo la Licencia MIT - ver el archivo LICENSE para más detalles.
+Este proyecto está bajo la Licencia MIT - ver el archivo LICENSE para más detalles..
